@@ -1,3 +1,4 @@
+//It is chrome extension which changes the background color of a webpage.
 import { useState } from "react";
 
 function App() {
