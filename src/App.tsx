@@ -23,10 +23,7 @@ function App() {
         value={color} 
         onChange={(e) => setColor(e.target.value)} 
       />
-      <button 
-        className='h-20px w-45px rounded-md' 
-        onClick={changeColor}
-      >
+      <button className='h-20px w-45px rounded-md' onClick={changeColor}>
         Click Me
       </button>
     </div>
